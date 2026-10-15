@@ -20,31 +20,27 @@
       <span class="brand__tag">A Creative Practice</span>
     </a>
     <div class="nav__links">
+      <a href="index.html" aria-current="page">Home</a>
       <a href="practice.html">The Practice</a>
       <a href="services.html">Services</a>
-      <a href="#footnote" class="is-accent">Footnote</a>
-      <a href="#work">Work</a>
+      <a href="footnote.html">Footnote</a>
+      <a href="work.html">Work</a>
       <a href="extras.html">A Little Bit Extra</a>
-      <a href="#contact">Contact</a>
+      <a href="contact.html">Contact</a>
     </div>
   </nav>
 
   <main>
 
     <!-- Hero -->
-    <section class="section has-mark">
-      <div class="mark" aria-hidden="true" style="bottom: -100px; left: -40px; font-size: 420px;">&para;</div>
-      <div class="hero">
-        <div class="hero__copy stack gap-28">
-          <h1>Apparently, I&rsquo;m the friend you call for&hellip; well, everything.</h1>
-          <p>I&rsquo;m an analytical creative. A daydreamer and a doer. I love the big idea, and the 37 tiny decisions that make it actually work.</p>
-          <div class="btn-row" style="margin-top: 8px;">
-            <a href="#footnote" class="btn btn--oxblood">Ask a Footnote, $5</a>
-            <a href="practice.html" class="btn btn--outline">See the Practice</a>
-          </div>
-        </div>
-        <div class="hero__photo">
-          <img src="images/hero.jpg" alt="Taylor, mid text, tumbler in hand" width="800" height="1000">
+    <section class="section has-mark home-hero">
+      <div class="mark home-hero__mark" aria-hidden="true">&para;</div>
+      <div class="hero__copy stack gap-28">
+        <h1>Apparently, I&rsquo;m the friend you call for&hellip; well, everything.</h1>
+        <p class="lede-italic">I&rsquo;m an analytical creative. A daydreamer and a doer.<br>I love the big idea, and the 37 tiny decisions that make it actually work.</p>
+        <div class="btn-row" style="margin-top: 8px;">
+          <a href="footnote.html" class="btn btn--oxblood">Ask a Footnote, $5</a>
+          <a href="practice.html" class="btn btn--outline">See the Practice</a>
         </div>
       </div>
     </section>
@@ -82,6 +78,16 @@
       </div>
     </section>
 
+    <!-- Photo collage -->
+    <section class="section collage-wrap" style="padding-top: 0;">
+      <div class="collage">
+        <div class="frame collage__a"><img src="images/work-outdoor.jpg" alt="Taylor setting up an outdoor event sign" loading="lazy"></div>
+        <div class="frame collage__b"><img src="images/hero.jpg" alt="Taylor texting, tumbler in hand" loading="lazy"></div>
+        <div class="frame collage__c"><img src="images/work-merch.jpg" alt="Taylor designing custom apparel at her desk" loading="lazy"></div>
+      </div>
+      <div class="btn-row" style="justify-content: center;"><a href="work.html" class="btn btn--outline">See More Work</a></div>
+    </section>
+
     <!-- Services lanes -->
     <section id="services" class="section section--card stack gap-48">
       <div class="stack gap-12">
@@ -115,74 +121,24 @@
       <div class="btn-row"><a href="services.html" class="btn btn--outline">See the Full Menu</a></div>
     </section>
 
-    <!-- Footnote -->
-    <section id="footnote" class="section section--ink stack gap-28 center">
-      <p class="eyebrow">Footnote</p>
-      <h2 style="font-size: clamp(32px, 3.4vw, 42px); max-width: 720px; line-height: 1.15;">Sometimes It&rsquo;s a Five Minute Question</h2>
-      <p class="muted-on-ink" style="max-width: 500px; font-size: 16px;">Not everything needs a full project. Sometimes you just need an answer.</p>
-      <div class="price-cards">
-        <div class="price-card">
-          <p class="price-card__label">A Footnote</p>
-          <p class="price-card__price">$5</p>
-          <p class="price-card__note">One question, one answer. No follow up questions included.</p>
-          <a href="https://www.paypal.com/ncp/payment/VWPMENV2MM3QE" target="_blank" rel="noopener" class="btn btn--brass" style="align-self: flex-start; margin-top: 8px;">Buy a Footnote</a>
-        </div>
-        <div class="price-card price-card--featured">
-          <p class="price-card__label">Six Footnotes</p>
-          <p class="price-card__price">$20</p>
-          <p class="price-card__note">For the months where the questions keep coming.</p>
-        </div>
-      </div>
-      <p class="muted-on-ink" style="max-width: 500px; font-size: 15px;">Paid? Send your question through the <a href="#contact" style="color: var(--brass); text-decoration: underline;">contact form</a> and check &ldquo;A Footnote.&rdquo;</p>
-      <p class="placeholder-on-ink">[Add PayPal link for Six Footnotes]</p>
-    </section>
-
-    <!-- Work -->
-    <section id="work" class="section stack gap-40">
-      <p class="eyebrow">Selected Work</p>
-      <div class="work">
-        <figure>
-          <div class="frame"><img src="images/work-merch.jpg" alt="Custom apparel, packaging and brand merchandise" loading="lazy"></div>
-          <figcaption>Custom apparel, packaging and brand merchandise.</figcaption>
-        </figure>
-        <figure>
-          <div class="frame"><img src="images/work-dinner.jpg" alt="A private dinner tablescape" loading="lazy"></div>
-          <figcaption>A private dinner, tablescape and styling.</figcaption>
-        </figure>
-        <figure>
-          <div class="frame"><img src="images/work-outdoor.jpg" alt="An outdoor celebration with signage" loading="lazy"></div>
-          <figcaption>An outdoor celebration, signage and setup.</figcaption>
-        </figure>
-        <figure>
-          <div class="frame"><img src="images/work-backyard.jpg" alt="A styled backyard gathering" loading="lazy"></div>
-          <figcaption>A backyard gathering, styled start to finish.</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="section section--card stack gap-28 center">
+    <!-- Contact teaser -->
+    <section id="contact" class="section section--card stack gap-24 center">
       <p class="eyebrow">Contact</p>
       <h2 style="font-size: clamp(28px, 3vw, 36px);">Tell me what you&rsquo;re working on.</h2>
-      <!-- Google Form: "taylorwinfrey.com Contact Form" in Taylor's Google Drive -->
-      <div class="contact-form contact-form--live">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOQrDyI0jHGDAHSMkZpN0hrf_OvxP645I-IngwgIhhC2j3oQ/viewform?embedded=true" title="Contact form" loading="lazy">Loading&hellip;</iframe>
-      </div>
-      <p style="font-size: 14px; color: var(--taupe);">Form not loading? <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOQrDyI0jHGDAHSMkZpN0hrf_OvxP645I-IngwgIhhC2j3oQ/viewform" target="_blank" rel="noopener" style="color: var(--oxblood); text-decoration: underline;">Open it in a new tab</a>.</p>
+      <p class="lede-italic" style="font-size: 18px;">A coffee, a happy hour, a FaceTime, a Zoom. Whatever fits your day.</p>
+      <div class="btn-row" style="justify-content: center;"><a href="contact.html" class="btn btn--oxblood">Get in Touch</a></div>
     </section>
 
   </main>
 
   <footer class="footer">
-    <div class="stack" style="gap: 8px;">
+    <div class="footer__brand">
       <span class="footer__name">Taylor Winfrey</span>
       <span class="footer__tag">A Creative Practice</span>
     </div>
     <div class="footer__links">
-      <a href="mailto:taylorwinfreycreativepractice@gmail.com" style="overflow-wrap: anywhere;">taylorwinfreycreativepractice@gmail.com</a>
-      <a href="https://buymeacoffee.com/twinfrey" target="_blank" rel="noopener">Buy Me A Coffee</a>
-      <a href="tel:+14024139625">(402) 413-9625</a>
-      <a href="gluten-free.html">Gluten Free in Lincoln</a>
+      <a href="https://buymeacoffee.com/twinfrey" target="_blank" rel="noopener" class="footer__coffee">Buy Me A Coffee</a>
+      <a href="tel:+14024139625" class="footer__phone">(402) 413-9625</a>
     </div>
     <p class="footer__colophon">&para; Taylor Winfrey. A Creative Practice.</p>
   </footer>
