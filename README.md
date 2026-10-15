@@ -22,3 +22,7 @@ Static site for Taylor Winfrey, A Creative Practice. Hosted on GitHub Pages.
 To change copy, open the page on github.com, click the pencil icon, edit the text between the tags, and commit. The live site updates within a minute or two.
 
 To add a new extra, open `extras.html` and follow the note above the list.
+
+## When you change styles.css
+
+Every page loads the stylesheet as `styles.css?v=` plus a number. After editing `styles.css`, change that number on every page (any new number works) so visitors' browsers pick up the new version right away instead of using a saved copy.
