@@ -17,3 +17,10 @@ To change copy, open the page on github.com, click the pencil icon, edit the tex
 Placeholders in square brackets, like `[Add price]` or `[Add email address]`, still need real content.
 
 To add the Google Form, open the form, click Send, choose the `< >` embed tab, copy the iframe code, and paste it in `index.html` where it says `[Paste Google Form embed here]`.
+
+## Gluten free guide
+
+`gluten-free.html` is the Lincoln gluten free page. It is linked from the footer of every page.
+`gluten-free-places.js` holds the list of places. To add one, open that file on github.com, click the pencil, copy a `{ name: ... }` line in the right group, change the details, and commit. Instructions are at the top of the file.
+
+The page has a spot for a Google My Maps embed. Directions are in a note inside `gluten-free.html`, just above the map section.
