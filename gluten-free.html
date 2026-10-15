@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gluten Free in Lincoln | Taylor Winfrey</title>
+  <meta name="description" content="Where to eat gluten free in Lincoln, Nebraska. A celiac-tested list of restaurants, bakeries and bars, from twenty years of eating celiac.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Karla:wght@400;500;600;700&family=Courier+Prime:ital,wght@0,400;0,700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="nav" aria-label="Main">
+    <a href="index.html" class="brand">
+      <span class="brand__name">Taylor Winfrey</span>
+      <span class="brand__tag">A Creative Practice</span>
+    </a>
+    <div class="nav__links">
+      <a href="practice.html">The Practice</a>
+      <a href="services.html">Services</a>
+      <a href="index.html#footnote">Footnote</a>
+      <a href="index.html#work">Work</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Intro -->
+    <section class="section has-mark" style="padding-bottom: 56px;">
+      <div class="mark" aria-hidden="true" style="top: -90px; right: -50px; font-size: 380px;">&para;</div>
+      <div class="stack gap-24" style="max-width: 640px;">
+        <p class="eyebrow">Field Notes &middot; Lincoln, NE</p>
+        <h1 style="font-size: clamp(36px, 4.2vw, 50px); line-height: 1.15;">Where I eat gluten free in Lincoln.</h1>
+        <p class="lede-italic" style="font-size: 20px; line-height: 1.6;">Twenty years celiac, ten of them in Lincoln. These are the places I go back to, sorted by the kind of night you&rsquo;re having.</p>
+      </div>
+    </section>
+
+    <!-- Map. To turn it on: in Google My Maps, open your map, click Share and make it public,
+         then open the three dot menu and choose "Embed on my site". Copy only the link inside src="...",
+         and paste it below in place of PASTE_MAP_LINK_HERE. Then delete the word hidden from the section line. -->
+    <section class="section section--card gf-map" id="map" style="padding-bottom: 0;" hidden>
+      <div class="stack gap-12" style="margin-bottom: 20px;">
+        <p class="eyebrow">The Map</p>
+        <h2 style="font-size: clamp(26px, 2.6vw, 32px);">Rather look by neighborhood?</h2>
+      </div>
+      <div class="gf-map__frame">
+        <iframe src="PASTE_MAP_LINK_HERE" title="Map of gluten free spots in Lincoln" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- Guide -->
+    <section class="section section--card gf" style="padding-top: 48px;">
+      <div class="gf__tools">
+        <label for="gf-search" class="eyebrow">Find a spot</label>
+        <input id="gf-search" class="gf__search" type="search" placeholder="Search by name, street, or GF item" autocomplete="off">
+        <div class="gf__filters" id="gf-filters" role="group" aria-label="Filter by category"></div>
+      </div>
+
+      <div class="gf__list" id="gf-list">
+        <noscript><p class="lede-italic">Turn on JavaScript to see the list.</p></noscript>
+      </div>
+
+      <div class="gf__fine">
+        <p>&para; Menus and kitchens change. Mention celiac when you order, even at places on this list.</p>
+        <p>Tap an address to open it in maps. Chains link to every Lincoln location.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="stack" style="gap: 8px;">
+      <span class="footer__name">Taylor Winfrey</span>
+      <span class="footer__tag">A Creative Practice</span>
+    </div>
+    <div class="footer__links">
+      <a href="#">[Add email address]</a>
+      <a href="#">[Add Instagram]</a>
+      <a href="gluten-free.html" aria-current="page">Gluten Free in Lincoln</a>
+    </div>
+    <p class="footer__colophon">&para; Taylor Winfrey. A Creative Practice.</p>
+  </footer>
+
+</div>
+
+<!-- The list of places lives in gluten-free-places.js. Edit that file to add or change a spot. -->
+<script src="gluten-free-places.js"></script>
+<script>
+(function () {
+  var GROUPS = window.GF_GROUPS || [];
+  var maps = function (q) { return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q); };
+  var el = function (tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  var link = function (href, text) { var a = el("a", null, text); a.href = href; a.target = "_blank"; a.rel = "noopener"; return a; };
+
+  var active = "all";
+  var filters = document.getElementById("gf-filters");
+  var list = document.getElementById("gf-list");
+  var search = document.getElementById("gf-search");
+
+  function addButton(id, label) {
+    var b = el("button", null, label); b.type = "button"; b.dataset.id = id;
+    b.addEventListener("click", function () { active = id; render(); });
+    filters.appendChild(b);
+  }
+  addButton("all", "All");
+  GROUPS.forEach(function (g) { addButton(g.id, g.title); });
+
+  function matches(p, term) {
+    if (!term) return true;
+    var parts = [p.name, p.note || ""].concat(p.chips || []);
+    (p.addr || []).forEach(function (a) { parts = parts.concat(a); });
+    return parts.join(" ").toLowerCase().indexOf(term) !== -1;
+  }
+
+  function render() {
+    filters.querySelectorAll("button").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.id === active ? "true" : "false"); });
+    var term = search.value.trim().toLowerCase();
+    list.replaceChildren();
+    var shown = 0;
+    GROUPS.forEach(function (g) {
+      if (active !== "all" && g.id !== active) return;
+      var places = g.places.filter(function (p) { return matches(p, term); });
+      if (!places.length) return;
+      shown += places.length;
+      var s = el("div", "gf__group");
+      var head = el("div", "gf__head");
+      head.append(el("h2", null, g.title), el("span", "gf__count", places.length + (places.length === 1 ? " place" : " places")));
+      var ul = el("ul", "gf__places");
+      places.forEach(function (p) {
+        var li = el("li");
+        li.appendChild(el("span", "gf__star", "*"));
+        var body = el("div", "gf__body");
+        var top = el("div", "gf__top");
+        top.appendChild(el("span", "gf__name", p.name));
+        var links = el("span", "gf__links");
+        if (p.menu) links.appendChild(link(p.menu, "Menu"));
+        if (p.site) links.appendChild(link(p.site, p.siteLabel || "Website"));
+        if (p.chain) links.appendChild(link(maps(p.chain), "Locations"));
+        top.appendChild(links);
+        body.appendChild(top);
+        if (p.chips) { var c = el("div", "gf__chips"); p.chips.forEach(function (t) { c.appendChild(el("span", "gf__chip", t)); }); body.appendChild(c); }
+        if (p.note) body.appendChild(el("p", "gf__note", p.note));
+        if (p.addr) {
+          var a = el("ul", "gf__addr");
+          p.addr.forEach(function (row) {
+            var ali = el("li"); var al = link(maps(p.name + " " + row[1]), "");
+            if (row[0]) al.appendChild(el("b", null, row[0] + "  "));
+            al.appendChild(document.createTextNode(row[1]));
+            ali.appendChild(al); a.appendChild(ali);
+          });
+          body.appendChild(a);
+        }
+        li.appendChild(body);
+        ul.appendChild(li);
+      });
+      s.append(head, ul);
+      list.appendChild(s);
+    });
+    if (!shown) list.appendChild(el("p", "gf__empty", "Nothing matches that yet. Try a different word or tap All."));
+  }
+  search.addEventListener("input", render);
+  render();
+})();
+</script>
+</body>
+</html>
