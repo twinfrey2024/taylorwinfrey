@@ -35,7 +35,7 @@ window.GF_GROUPS = [
     { name: "Bagels & Joe", chips: ["GF bread"], menu: "https://bagelsandjoe.com/full-menus/", addr: [["South", "4701 Old Cheney Rd, Lincoln, NE 68516"], ["North", "1777 N 86th St, Lincoln, NE 68505"], ["Pioneers", "7811 Pioneers Blvd, Lincoln, NE 68506"], ["Foundry", "215 N 14th St, Lincoln, NE 68508"]] },
     { name: "Good Evans", menu: "https://goodevans.com/our-menu/", addr: [["Clock Tower", "6891 A St, Ste 102, Lincoln, NE 68510"], ["SouthPointe", "2820 Pine Lake Rd, Ste 1, Lincoln, NE 68516"]] },
     { name: "The Hub Cafe", chips: ["Labeled GF items"], note: "Avocado tostada can be made on GF bread", addr: [["", "250 N 21st St #3, Lincoln, NE 68503"]] },
-    { name: "Saro Cider", chips: ["GF brunch, 1st Sunday monthly"], note: "Owner is celiac", site: "https://www.sarocider.com/", addr: [["Taproom", "1746 N St, Lincoln, NE 68508"]] }
+    { name: "Saro Cider", chips: ["GF brunch, 2nd Sundays"], note: "GF brunch the 2nd Sunday of every month, 10am to 2pm. Owner is celiac.", site: "https://www.sarocider.com/", addr: [["Taproom", "1746 N St, Lincoln, NE 68508"]] }
   ]},
   { id: "pizza", title: "Pizza", places: [
     { name: "Lazzari's", chips: ["GF crust"], site: "https://lazzarislincoln.com/", addr: [["O Street", "1434 O St, Lincoln, NE 68508"], ["Old Cheney", "4701 Old Cheney Rd, Lincoln, NE 68516"]] },

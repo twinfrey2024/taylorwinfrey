@@ -355,3 +355,30 @@ p { margin: 0; }
   .hero__photo img { max-width: 320px; }
   .mark { font-size: 240px !important; }
 }
+
+/* ---------- A Little Bit Extra (extras.html) ---------- */
+.extras { list-style: none; margin: 0; padding: 0; max-width: 900px; }
+.extra {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 8px 32px;
+  padding: 36px 0;
+  border-top: 1px solid var(--rule);
+}
+.extra:last-child { border-bottom: 1px solid var(--rule); }
+.extra__no { font-family: var(--font-mono); font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--oxblood); padding-top: 6px; }
+.extra__body { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.extra__label { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--taupe); }
+.extra__title { font-size: clamp(26px, 2.8vw, 34px); line-height: 1.2; }
+.extra__title a:hover { color: var(--oxblood); }
+.extra__blurb { font-family: var(--font-text); font-style: italic; font-size: 17px; line-height: 1.6; max-width: 620px; }
+.extra__more { align-self: flex-start; margin-top: 4px; font-weight: 600; font-size: 15px; color: var(--oxblood); border-bottom: 1px solid currentColor; padding: 4px 0; }
+.extra__more:hover { color: var(--oxblood-deep); }
+.extras__soon { margin-top: 32px; font-family: var(--font-text); font-style: italic; color: var(--taupe); }
+.crumb { align-self: flex-start; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--taupe); }
+.crumb:hover { color: var(--oxblood); }
+
+@media (max-width: 680px) {
+  .extra { grid-template-columns: 1fr; padding: 28px 0; }
+  .extra__no { padding-top: 0; }
+}
