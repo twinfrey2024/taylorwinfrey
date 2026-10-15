@@ -225,6 +225,9 @@ p { margin: 0; }
   text-align: center;
 }
 .contact-form iframe { width: 100%; min-height: 900px; border: 0; }
+.contact-form--live { border: 1px solid var(--rule); background: #fff; padding: 0; overflow: hidden; }
+.contact-form--live iframe { display: block; height: 1550px; }
+@media (max-width: 680px) { .contact-form--live iframe { height: 1800px; } }
 
 /* ---------- Services accordion ---------- */
 .menu details { border-top: 1px solid var(--rule); }
