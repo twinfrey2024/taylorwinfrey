@@ -509,3 +509,13 @@ p { margin: 0; }
   .footer__brand { justify-content: center; }
   .footer__colophon { justify-self: center; text-align: center; max-width: none; white-space: normal; }
 }
+
+/* Social links in footer */
+.footer__social { font-family: var(--font-mono); font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--taupe); white-space: nowrap; }
+.footer__social a:hover { color: var(--oxblood); }
+
+/* "Buy me a coffee" note on the guide and Extras pages */
+.coffee-note { padding-top: 48px; padding-bottom: 48px; text-align: center; border-top: 1px solid var(--rule); }
+.coffee-note p { font-family: var(--font-text); font-style: italic; font-size: clamp(18px, 1.8vw, 22px); }
+.coffee-note a { color: var(--oxblood); text-decoration: underline; text-underline-offset: 3px; }
+.coffee-note span { color: var(--brass); margin-left: 6px; font-style: normal; }
