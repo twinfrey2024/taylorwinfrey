@@ -48,7 +48,7 @@ window.GF_GROUPS = [
     { name: "Red Robin", chips: ["Dedicated GF fryer"], site: "https://www.redrobin.com/", addr: [["South Ridge", "2707 Pine Lake Rd, Lincoln, NE 68516"]] }
   ]},
   { id: "mexican", title: "Mexican", places: [
-    { name: "Mi Tierra", menu: "https://mitierralincoln.com/lincoln-mi-tierra-mexican-restaurant-food-menu", addr: [["North", "8320 Northwoods Dr, Lincoln, NE 68505"], ["South", "5500 Old Cheney Rd #4, Lincoln, NE 68516"]] },
+    { name: "Mi Tierra", chips: ["GF marked on menu"], menu: "https://mitierralincoln.com/lincoln-mi-tierra-mexican-restaurant-food-menu", addr: [["North", "8320 Northwoods Dr, Lincoln, NE 68505"], ["South", "5500 Old Cheney Rd #4, Lincoln, NE 68516"]] },
     { name: "Hacienda Real", addr: [["", "3130 Pine Lake Rd, Lincoln, NE 68516"]] }
   ]},
   { id: "asian", title: "Sushi & Asian", places: [
