@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Karla:wght@400;500;600;700&family=Courier+Prime:ital,wght@0,400;0,700&display=swap">
-  <link rel="stylesheet" href="styles.css?v=202610161023">
+  <link rel="stylesheet" href="styles.css?v=202610161400">
 </head>
 <body>
 <div class="wrap">
@@ -106,7 +106,7 @@
 </div>
 
 <!-- The list of places lives in gluten-free-places.js. Edit that file to add or change a spot. -->
-<script src="gluten-free-places.js?v=202610161100"></script>
+<script src="gluten-free-places.js?v=202610161400"></script>
 <script>
 (function () {
   var GROUPS = window.GF_GROUPS || [];
@@ -175,7 +175,7 @@
         li.appendChild(body);
         ul.appendChild(li);
       });
-      s.append(head, ul);
+      s.append(head); if (g.intro) s.append(el("p", "gf__intro", g.intro)); s.append(ul);
       list.appendChild(s);
     });
     if (!shown) list.appendChild(el("p", "gf__empty", "Nothing matches that yet. Try a different word or tap All."));
