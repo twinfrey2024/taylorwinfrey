@@ -56,7 +56,8 @@ window.GF_GROUPS = [
     { name: "Hiro 88", menu: "https://hiro88.com/dinner-menu/", addr: [["West Haymarket", "601 R St #100, Lincoln, NE 68508"], ["South", "5730 Hidcote Dr, Lincoln, NE 68516"]] },
     { name: "Ginger", menu: "https://ginger-grill.com/lincoln-ginger-grill-food-menu", addr: [["", "6055 Apples Way, Lincoln, NE 68516"]] },
     { name: "Grey Whale Poke", menu: "https://www.greywhalepokebowl.com/q-st-location", addr: [["Downtown", "1317 Q St Ste 130, Lincoln, NE 68508"], ["Gateway Mall", "6100 O St Ste D6, Lincoln, NE 68505"]] },
-    { name: "Mr. Hui's #2", menu: "https://www.mrhuis2lincolnne.com/order", addr: [["", "4131 Pioneer Woods Dr, Lincoln, NE 68506"]] }
+    { name: "Mr. Hui's #2", chips: ["Most dishes made GF"], note: "Call for takeout. They're super knowledgeable and can make most dishes gluten free. My favorite is the Hunan beef or chicken.", menu: "https://www.mrhuis2lincolnne.com/order", addr: [["", "4131 Pioneer Woods Dr, Lincoln, NE 68506"]] },
+    { name: "Chopsticks", chips: ["GF fried rice"], note: "They'll make the fried rice gluten free.", menu: "https://www.chopstickslincoln.com/order", addr: [["", "6891 A St, Suite 215, Lincoln, NE 68510"]] }
   ]},
   { id: "bars", title: "Sports bars", places: [
     { name: "Sportscasters", site: "https://www.facebook.com/150801348271616", siteLabel: "Facebook", addr: [["", "3048 N 70th St, Lincoln, NE 68507"]] },
