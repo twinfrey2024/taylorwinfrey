@@ -11,6 +11,7 @@ Static site for Taylor Winfrey, A Creative Practice. Hosted on GitHub Pages.
 `work.html` Work (photo grid)
 `extras.html` A Little Bit Extra (list of guides and posts)
 `gluten-free.html` Gluten free in Lincoln. The list of places lives in `gluten-free-places.js`.
+`hawthorne-events.html` Event notes on the Hawthorne Jewelry packages.
 `contact.html` Contact (hours, phone, email and the Google Form)
 
 `styles.css` holds every color, font and layout rule, so a change there updates all pages.
