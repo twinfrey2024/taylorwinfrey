@@ -520,3 +520,17 @@ p { margin: 0; }
 .coffee-note p { font-family: var(--font-text); font-style: italic; font-size: clamp(18px, 1.8vw, 22px); }
 .coffee-note a { color: var(--oxblood); text-decoration: underline; text-underline-offset: 3px; }
 .coffee-note span { color: var(--brass); margin-left: 6px; font-style: normal; }
+
+/* ---------- Homepage hero on phones ---------- */
+.home-hero .hero__copy { flex-shrink: 1; min-width: 0; width: 100%; }
+@media (max-width: 680px) {
+  .home-hero { min-height: 0; padding-top: 56px; padding-bottom: 64px; }
+  .home-hero h1 { font-size: clamp(32px, 9vw, 40px); line-height: 1.15; }
+  .home-hero .lede-italic { font-size: 18px; line-height: 1.6; }
+  .home-hero .lede-italic br { display: none; }
+  .home-hero__mark { top: 12px; right: -6px; font-size: 200px !important; opacity: 0.08; }
+  .home-hero .btn-row { flex-direction: column; gap: 12px; }
+  .home-hero .btn { justify-content: center; width: 100%; }
+  .nav { padding-top: 20px; padding-bottom: 18px; gap: 12px; }
+  .nav__links { gap: 2px 20px; }
+}
