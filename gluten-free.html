@@ -62,18 +62,6 @@
       </div>
     </section>
 
-    <!-- Map: Google My Maps embed. Edit the pins in My Maps and this updates on its own.
-         The map must stay shared as public for visitors to see it. -->
-    <section class="section section--card gf-map" id="map" style="padding-bottom: 0;">
-      <div class="stack gap-12" style="margin-bottom: 20px;">
-        <p class="eyebrow">The Map</p>
-        <h2 style="font-size: clamp(26px, 2.6vw, 32px);">Rather look by neighborhood?</h2>
-      </div>
-      <div class="gf-map__frame">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1s0Oivb3LIUYQXMpscp9wIOeeTdaGe6M" title="Map of gluten free spots in Lincoln" loading="lazy"></iframe>
-      </div>
-    </section>
-
     <!-- Guide -->
     <section class="section section--card gf" style="padding-top: 48px;">
       <div class="gf__tools">
@@ -89,6 +77,17 @@
       <div class="gf__fine">
         <p>&para; Menus and kitchens change. Mention celiac when you order, even at places on this list.</p>
         <p>Tap an address to open it in maps. Chains link to every Lincoln location.</p>
+      </div>
+    </section>
+
+    <!-- Map: button opens the Gluten Free Lincoln map in Google My Maps.
+         Edit the pins in My Maps and the link always shows the latest. Keep the map shared as public. -->
+    <section class="section stack gap-20 center gf-map" id="map">
+      <p class="eyebrow">The Map</p>
+      <h2 style="font-size: clamp(26px, 2.6vw, 32px);">Rather look by neighborhood?</h2>
+      <p class="lede-italic" style="font-size: 18px; max-width: 520px;">Every spot on this list, pinned and color coded by category.</p>
+      <div class="btn-row" style="justify-content: center; margin-top: 8px;">
+        <a href="https://www.google.com/maps/d/viewer?mid=1s0Oivb3LIUYQXMpscp9wIOeeTdaGe6M" class="btn btn--oxblood" target="_blank" rel="noopener">Open the Map</a>
       </div>
     </section>
 
