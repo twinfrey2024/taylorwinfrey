@@ -68,6 +68,7 @@
         <label for="gf-search" class="eyebrow">Find a spot</label>
         <input id="gf-search" class="gf__search" type="search" placeholder="Search by name, street, or GF item" autocomplete="off">
         <div class="gf__filters" id="gf-filters" role="group" aria-label="Filter by category"></div>
+        <p class="gf__legend"><span class="gf__flag">On my list</span> I haven&rsquo;t tried these yet, but Lincoln celiacs swear by them.</p>
       </div>
 
       <div class="gf__list" id="gf-list">
@@ -160,7 +161,9 @@
         li.appendChild(el("span", "gf__star", "*"));
         var body = el("div", "gf__body");
         var top = el("div", "gf__top");
-        top.appendChild(el("span", "gf__name", p.name));
+        var nm = el("span", "gf__name", p.name);
+        if (p.onMyList) { nm.appendChild(document.createTextNode(" ")); nm.appendChild(el("span", "gf__flag", "On my list")); }
+        top.appendChild(nm);
         var links = el("span", "gf__links");
         if (p.menu) links.appendChild(link(p.menu, "Menu"));
         if (p.site) links.appendChild(link(p.site, p.siteLabel || "Website"));
