@@ -95,7 +95,7 @@ window.GF_GROUPS = [
     { name: "Taco John's", chips: ["GF hard shell tacos", "GF Potato Olés"], note: "Hard shell tacos and Potato Olés are gluten free. My favorite is the Super Potato Olé. Not sure if the fryer is shared, so ask.", site: "https://www.tacojohns.com/", chain: "Taco John's Lincoln NE" },
     { name: "Noodles & Company", site: "https://www.noodles.com/", chain: "Noodles & Company Lincoln NE" },
     { name: "Raising Cane's", chips: ["Naked Bird"], note: "Order the tenders naked. No dedicated fryer.", site: "https://www.raisingcanes.com/", chain: "Raising Cane's Lincoln NE" },
-    { name: "Slim Chickens", site: "https://www.slimchickens.com/", chain: "Slim Chickens Lincoln NE" },
+    { name: "Slim Chickens", chips: ["Grilled tenders"], note: "Get the tender meal grilled, no toast. The fries share a fryer.", site: "https://www.slimchickens.com/", chain: "Slim Chickens Lincoln NE" },
     { name: "Cheba Hut", onMyList: true, chips: ["GF bread", "Hard cider"], note: "Owner is celiac. GF subs are toasted on their own paper.", site: "https://www.chebahut.com/locations/lincoln-ne", addr: [["Telegraph", "200 S 21st St, Lincoln, NE 68510"]] },
     { name: "Moxie’s", onMyList: true, chips: ["Fully GF"], note: "Allergen-free kiosk in UNL’s Selleck food court, open to the public on weekdays.", addr: [["Selleck Hall", "600 N 15th St, Lincoln, NE 68508"]] }
   ]}
