@@ -329,12 +329,9 @@ p { margin: 0; }
 .gf__empty { font-family: var(--font-text); font-style: italic; color: var(--taupe); grid-column: 1 / -1; }
 .gf__fine { display: flex; flex-direction: column; gap: 6px; font-family: var(--font-mono); font-size: 12px; color: var(--taupe); padding-top: 24px; border-top: 1px solid var(--rule); }
 
-.gf-map__frame { border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; background: var(--paper); }
-.gf-map__frame iframe { display: block; width: 100%; height: 520px; border: 0; }
 
 @media (max-width: 900px) {
   .gf__list { grid-template-columns: 1fr; }
-  .gf-map__frame iframe { height: 420px; }
 }
 
 /* ---------- Responsive ---------- */
