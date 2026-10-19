@@ -88,11 +88,11 @@ window.GF_GROUPS = [
     { name: "Heavenly Body Bakery", onMyList: true, chips: ["Fully GF", "Food truck"], note: "Celiac-owned bakery truck from Omaha that pops up in Lincoln. Check Facebook for stops.", site: "https://www.facebook.com/p/Heavenly-Body-Bakery-61559630672857/", siteLabel: "Facebook" }
   ]},
   { id: "fast", title: "Fast food", places: [
-    { name: "Culver's", site: "https://www.culvers.com/", chain: "Culver's Lincoln NE" },
-    { name: "Chick-fil-A", site: "https://www.chick-fil-a.com/", chain: "Chick-fil-A Lincoln NE" },
-    { name: "Jersey Mike's", site: "https://www.jerseymikes.com/", chain: "Jersey Mike's Lincoln NE" },
-    { name: "Firehouse Subs", site: "https://www.firehousesubs.com/", chain: "Firehouse Subs Lincoln NE" },
-    { name: "Taco John's", site: "https://www.tacojohns.com/", chain: "Taco John's Lincoln NE" },
+    { name: "Culver's", chips: ["GF buns"], site: "https://www.culvers.com/", chain: "Culver's Lincoln NE" },
+    { name: "Chick-fil-A", chips: ["GF buns"], site: "https://www.chick-fil-a.com/", chain: "Chick-fil-A Lincoln NE" },
+    { name: "Jersey Mike's", chips: ["GF bread", "Allergy protocol"], note: "Every Lincoln location follows an allergy protocol that feels super safe.", site: "https://www.jerseymikes.com/", chain: "Jersey Mike's Lincoln NE" },
+    { name: "Firehouse Subs", chips: ["GF bread", "Allergy protocol"], note: "Every Lincoln location follows an allergy protocol that feels super safe.", site: "https://www.firehousesubs.com/", chain: "Firehouse Subs Lincoln NE" },
+    { name: "Taco John's", chips: ["GF hard shell tacos", "GF Potato Olés"], note: "Hard shell tacos and Potato Olés are gluten free. My favorite is the Super Potato Olé. Not sure if the fryer is shared, so ask.", site: "https://www.tacojohns.com/", chain: "Taco John's Lincoln NE" },
     { name: "Noodles & Company", site: "https://www.noodles.com/", chain: "Noodles & Company Lincoln NE" },
     { name: "Raising Cane's", chips: ["Naked Bird"], note: "Order the tenders naked. No dedicated fryer.", site: "https://www.raisingcanes.com/", chain: "Raising Cane's Lincoln NE" },
     { name: "Slim Chickens", site: "https://www.slimchickens.com/", chain: "Slim Chickens Lincoln NE" },
