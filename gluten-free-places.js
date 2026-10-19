@@ -28,7 +28,8 @@ window.GF_GROUPS = [
     { name: "Fleetwood", menu: "https://getfleetwood.com/menu", addr: [["", "801 O St, Suite 100, Lincoln, NE 68508"]] },
     { name: "Toast", menu: "https://gettoasty.com/menu", addr: [["", "570 Fallbrook Blvd #105, Lincoln, NE"]] },
     { name: "Lazlo's", chips: ["GF menu"], note: "No dedicated fryer.", menu: "https://lazlosbreweryandgrill.com/menu/", addr: [["Haymarket", "210 N 7th St, Lincoln, NE 68508"], ["South", "5900 Old Cheney Rd, Lincoln, NE 68516"]] },
-    { name: "Art & Soul", site: "https://www.lincolnartandsoul.com", addr: [["", "5740 Hidcote Dr, Lincoln, NE 68516"]] }
+    { name: "Art & Soul", site: "https://www.lincolnartandsoul.com", addr: [["", "5740 Hidcote Dr, Lincoln, NE 68516"]] },
+    { name: "Denton Daily Double", note: "Steakhouse and keno bar just west of Lincoln. One of my favorites.", menu: "https://dentondailydouble.com/menu", addr: [["Denton", "7230 Lancaster Ave, Denton, NE 68339"]] }
   ]},
   { id: "brunch", title: "Brunch", places: [
     { name: "Penelope's Lil' Cafe", chips: ["GF toast"], site: "https://www.facebook.com/penelopeslincoln", siteLabel: "Facebook", addr: [["", "4724 Pioneers Blvd, Lincoln, NE 68506"]] },
@@ -74,7 +75,8 @@ window.GF_GROUPS = [
     { name: "Goldenrod Pastries", chips: ["Mostly GF"], site: "https://www.instagram.com/goldenrodpastries/", siteLabel: "Instagram", addr: [["", "3947 S 48th St, Lincoln, NE 68506"]] },
     { name: "Rabbit Hole Bakery", chips: ["GF brownies, cookies, cupcakes"], note: "Fully GF cakes with a few days' notice", addr: [["", "800 Q St Suite 10, Lincoln, NE 68508"]] },
     { name: "Hurts Donut Co.", chips: ["GF donuts"], site: "https://www.wannahurts.com/locations/lincoln-ne/", addr: [["", "129 N 10th St #100, Lincoln, NE 68508"]] },
-    { name: "402 Creamery", chips: ["GF flavors rotate"], addr: [["Fallbrook", "570 Fallbrook Blvd Suite 102, Lincoln, NE 68521"], ["Telegraph", "330 S 21st St Suite 101, Lincoln, NE 68510"], ["Village Gardens", "7101 Kentwell Ln, Lincoln, NE 68516"]] }
+    { name: "402 Creamery", chips: ["GF flavors rotate"], addr: [["Fallbrook", "570 Fallbrook Blvd Suite 102, Lincoln, NE 68521"], ["Telegraph", "330 S 21st St Suite 101, Lincoln, NE 68510"], ["Village Gardens", "7101 Kentwell Ln, Lincoln, NE 68516"]] },
+    { name: "Paper Moon Pastries", chips: ["Gluten friendly cakes & cupcakes"], note: "Small town bakery in Cortland, open Saturdays. Some cookies are gluten friendly too, and the menu changes weekly on Facebook.", site: "https://www.facebook.com/papermoonpastries", siteLabel: "Facebook", addr: [["Cortland", "325 W 4th St, Cortland, NE 68331"]] }
   ]},
   { id: "totry", title: "On my list", intro: "I haven’t tried these yet, but Lincoln celiacs swear by them.", places: [
     { name: "Hickman Bar & Grill", chips: ["GF fryer on request"], note: "I’ve heard great things.", site: "https://www.facebook.com/hickmanbar", siteLabel: "Facebook", addr: [["", "107 Locust St, Hickman, NE 68372"]] },
