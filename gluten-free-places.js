@@ -45,7 +45,9 @@ window.GF_GROUPS = [
     { name: "Lazzari's", chips: ["GF crust"], site: "https://lazzarislincoln.com/", addr: [["O Street", "1434 O St, Lincoln, NE 68508"], ["Old Cheney", "4701 Old Cheney Rd, Lincoln, NE 68516"]] },
     { name: "Ramos Pizza", chips: ["GF crust"], note: "10 inch cauliflower GF crust", menu: "https://order.toasttab.com/online/ramos-pizza-and-busters-bbq-2435-s-48th-st", addr: [["", "2435 S 48th St, Lincoln, NE 68506"]] },
     { name: "Vic's Pizza", chips: ["GF crust"], menu: "https://order.toasttab.com/online/vicspizza", addr: [["", "8340 Glynoaks Dr, Lincoln, NE 68516"]] },
-    { name: "MōMō Pizzeria & Ristorante", chips: ["GF pasta swaps"], note: "The chef knows GF well. Ask for zucchini noodles.", addr: [["", "7701 Pioneers Blvd #2, Lincoln, NE 68506"]] }
+    { name: "MōMō Pizzeria & Ristorante", chips: ["GF pasta swaps"], note: "The chef knows GF well. Ask for zucchini noodles.", addr: [["", "7701 Pioneers Blvd #2, Lincoln, NE 68506"]] },
+    { name: "Mellow Mushroom", chips: ["GF crust"], site: "https://mellowmushroom.com/", addr: [["Haymarket", "601 R St, Suite 110, Lincoln, NE 68508"]] },
+    { name: "Blaze Pizza", chips: ["GF crust"], site: "https://www.blazepizza.com/", addr: [["Downtown", "1317 Q St, Lincoln, NE 68508"]] }
   ]},
   { id: "burgers", title: "Burgers", places: [
     { name: "HF Crave", chips: ["Dedicated GF fryer", "GF buns"], site: "https://www.hfcrave.com/", addr: [["Holdrege", "4800 Holdrege St Ste 100, Lincoln, NE 68504"], ["Pine Lake", "2801 Pine Lake Rd, Lincoln, NE 68516"]] },
@@ -85,7 +87,8 @@ window.GF_GROUPS = [
     { name: "Heavenly Body Bakery", chips: ["Fully GF", "Food truck"], note: "Celiac-owned bakery truck from Omaha that pops up in Lincoln. Check Facebook for stops.", site: "https://www.facebook.com/p/Heavenly-Body-Bakery-61559630672857/", siteLabel: "Facebook" },
     { name: "Salt Mine City Brewing Co.", chips: ["GF beer"], site: "https://www.saltminecity.com/", addr: [["Haymarket", "801 R St, Suite 100, Lincoln, NE 68508"]] },
     { name: "ChefauChef", chips: ["Catering"], note: "Caterer that works around allergies, plus Wham Bam Meal in a Pan.", site: "https://www.chefauchef.com/", addr: [["", "2111 N 86th St, Lincoln, NE 68505"]] },
-    { name: "Tico’s", chips: ["Lincoln favorite"], note: "Not my favorite, but most of Lincoln loves it.", addr: [["", "317 S 17th St, Lincoln, NE 68508"]] }
+    { name: "Tico’s", chips: ["Lincoln favorite"], note: "Not my favorite, but most of Lincoln loves it.", addr: [["", "317 S 17th St, Lincoln, NE 68508"]] },
+    { name: "Taco Inn", chips: ["Reader pick"], note: "Never been a fan myself, but readers recommend it. Send me your go-to order.", chain: "Taco Inn Lincoln NE" }
   ]},
   { id: "fast", title: "Fast food", places: [
     { name: "Culver's", site: "https://www.culvers.com/", chain: "Culver's Lincoln NE" },
@@ -93,6 +96,8 @@ window.GF_GROUPS = [
     { name: "Jersey Mike's", site: "https://www.jerseymikes.com/", chain: "Jersey Mike's Lincoln NE" },
     { name: "Firehouse Subs", site: "https://www.firehousesubs.com/", chain: "Firehouse Subs Lincoln NE" },
     { name: "Taco John's", site: "https://www.tacojohns.com/", chain: "Taco John's Lincoln NE" },
-    { name: "Noodles & Company", site: "https://www.noodles.com/", chain: "Noodles & Company Lincoln NE" }
+    { name: "Noodles & Company", site: "https://www.noodles.com/", chain: "Noodles & Company Lincoln NE" },
+    { name: "Raising Cane's", chips: ["Naked Bird"], note: "Order the tenders naked. No dedicated fryer.", site: "https://www.raisingcanes.com/", chain: "Raising Cane's Lincoln NE" },
+    { name: "Slim Chickens", site: "https://www.slimchickens.com/", chain: "Slim Chickens Lincoln NE" }
   ]}
 ];
