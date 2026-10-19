@@ -37,6 +37,7 @@ window.GF_GROUPS = [
     { name: "The Hub Cafe", chips: ["Labeled GF items"], note: "Avocado tostada can be made on GF bread", addr: [["", "250 N 21st St #3, Lincoln, NE 68503"]] },
     { name: "Saro Cider", chips: ["GF brunch, 2nd Sundays"], note: "GF brunch the 2nd Sunday of every month, 10am to 2pm. Owner is celiac.", site: "https://www.sarocider.com/", addr: [["Taproom", "1746 N St, Lincoln, NE 68508"]] },
     { name: "The Eatery", chips: ["GF bread & buns", "GF pizza & pasta"], note: "GF French toast, garlic bread and a kids' GF pizza too.", addr: [["", "2548 S 48th St, Lincoln, NE 68506"]] },
+    { name: "Ziggi's Coffee", chips: ["GF breakfast sandwiches"], site: "https://ziggiscoffee.com/locations/7050-s-69th-st-lincoln-ne/", addr: [["", "7050 S 69th St, Lincoln, NE 68516"]] },
     { name: "Early Bird", chips: ["GF waffles"], site: "https://earlybirdbrunch.com/", addr: [["", "1900 K St, Suite 180, Lincoln, NE 68510"]] }
   ]},
   { id: "pizza", title: "Pizza", places: [
