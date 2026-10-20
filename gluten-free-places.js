@@ -31,7 +31,8 @@ window.GF_GROUPS = [
     { name: "Lazlo's", chips: ["GF menu", "Dedicated fryer at Old Cheney"], note: "The Old Cheney location has a dedicated fryer. The downtown Haymarket location does not.", menu: "https://lazlosbreweryandgrill.com/menu/", addr: [["Haymarket", "210 N 7th St, Lincoln, NE 68508"], ["Old Cheney", "5900 Old Cheney Rd, Lincoln, NE 68516"]] },
     { name: "Art & Soul", site: "https://www.lincolnartandsoul.com", addr: [["", "5740 Hidcote Dr, Lincoln, NE 68516"]] },
     { name: "Salt Mine City Brewing Co.", onMyList: true, chips: ["GF beer"], site: "https://www.saltminecity.com/", addr: [["Haymarket", "801 R St, Suite 100, Lincoln, NE 68508"]] },
-    { name: "Parker's Smokehouse", site: "http://www.parkerssmokehouse.com/", addr: [["", "8341 O St, Lincoln, NE 68510"]] }
+    { name: "Parker's Smokehouse", site: "http://www.parkerssmokehouse.com/", addr: [["", "8341 O St, Lincoln, NE 68510"]] },
+    { name: "FireWorks", chips: ["GF buns"], note: "I've had nothing but bad luck here, from cold food to wrong orders, so I can't personally vouch for it. Probably just me. Try it, but maybe don't invite me.", site: "https://fireworksrestaurant.com/", addr: [["", "5750 S 86th St, Lincoln, NE 68526"]] }
   ]},
   { id: "brunch", title: "Brunch", places: [
     { name: "Penelope's Lil' Cafe", chips: ["GF toast"], site: "https://www.facebook.com/penelopeslincoln", siteLabel: "Facebook", addr: [["", "4724 Pioneers Blvd, Lincoln, NE 68506"]] },
