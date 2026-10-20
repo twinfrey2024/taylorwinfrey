@@ -50,7 +50,8 @@ window.GF_GROUPS = [
     { name: "MōMō Pizzeria & Ristorante", chips: ["GF pasta swaps"], note: "The chef knows GF well. Ask for zucchini noodles.", addr: [["", "7701 Pioneers Blvd #2, Lincoln, NE 68506"]] },
     { name: "Mellow Mushroom", chips: ["GF crust"], site: "https://mellowmushroom.com/", addr: [["Haymarket", "601 R St, Suite 110, Lincoln, NE 68508"]] },
     { name: "Blaze Pizza", chips: ["GF crust"], site: "https://www.blazepizza.com/", addr: [["Downtown", "1317 Q St, Lincoln, NE 68508"]] },
-    { name: "Isles Pub & Pizza", chips: ["GF crust"], site: "https://islespubandpizza.com", addr: [["Havelock", "6232 Havelock Ave, Lincoln, NE 68507"]] }
+    { name: "Isles Pub & Pizza", chips: ["GF crust"], site: "https://islespubandpizza.com", addr: [["Havelock", "6232 Havelock Ave, Lincoln, NE 68507"]] },
+    { name: "Yia Yia's", chips: ["Pizza baked potato"], note: "Get the pizza toppings on a baked potato. One of my favorites.", addr: [["Downtown", "1423 O St, Lincoln, NE 68508"], ["70th & Van Dorn", "2840 S 70th St, Suite 5, Lincoln, NE 68506"]] }
   ]},
   { id: "burgers", title: "Burgers", places: [
     { name: "HF Crave", chips: ["Dedicated GF fryer", "GF buns"], site: "https://www.hfcrave.com/", addr: [["Holdrege", "4800 Holdrege St Ste 100, Lincoln, NE 68504"], ["Pine Lake", "2801 Pine Lake Rd, Lincoln, NE 68516"]] },
