@@ -50,7 +50,8 @@ window.GF_GROUPS = [
     { name: "Vic's Pizza", chips: ["GF crust"], menu: "https://order.toasttab.com/online/vicspizza", addr: [["", "8340 Glynoaks Dr, Lincoln, NE 68516"]] },
     { name: "MōMō Pizzeria & Ristorante", chips: ["GF pasta swaps"], note: "The chef knows GF well. Ask for zucchini noodles.", addr: [["", "7701 Pioneers Blvd #2, Lincoln, NE 68506"]] },
     { name: "Mellow Mushroom", chips: ["GF crust"], site: "https://mellowmushroom.com/", addr: [["Haymarket", "601 R St, Suite 110, Lincoln, NE 68508"]] },
-    { name: "Blaze Pizza", chips: ["GF crust"], site: "https://www.blazepizza.com/", addr: [["Downtown", "1317 Q St, Lincoln, NE 68508"]] }
+    { name: "Blaze Pizza", chips: ["GF crust"], site: "https://www.blazepizza.com/", addr: [["Downtown", "1317 Q St, Lincoln, NE 68508"]] },
+    { name: "Isles Pub & Pizza", site: "https://islespubandpizza.com", addr: [["Havelock", "6232 Havelock Ave, Lincoln, NE 68507"]] }
   ]},
   { id: "burgers", title: "Burgers", places: [
     { name: "HF Crave", chips: ["Dedicated GF fryer", "GF buns"], site: "https://www.hfcrave.com/", addr: [["Holdrege", "4800 Holdrege St Ste 100, Lincoln, NE 68504"], ["Pine Lake", "2801 Pine Lake Rd, Lincoln, NE 68516"]] },
@@ -70,13 +71,14 @@ window.GF_GROUPS = [
     { name: "Grey Whale Poke", menu: "https://www.greywhalepokebowl.com/q-st-location", addr: [["Downtown", "1317 Q St Ste 130, Lincoln, NE 68508"], ["Gateway Mall", "6100 O St Ste D6, Lincoln, NE 68505"]] },
     { name: "Kencono Bowl", menu: "https://kenconobowl.com/lincoln-lincoln-nebraska-kencono-bowl-food-menu", addr: [["", "2601 Jamie Ln, Suite 104, Lincoln, NE 68512"]] },
     { name: "Mr. Hui's #2", chips: ["Most dishes made GF"], note: "Call for takeout. They're super knowledgeable and can make most dishes gluten free. My favorite is the Hunan beef or chicken.", menu: "https://www.mrhuis2lincolnne.com/order", addr: [["", "4131 Pioneer Woods Dr, Lincoln, NE 68506"]] },
-    { name: "Chopsticks", chips: ["GF fried rice"], note: "They'll make the fried rice gluten free.", menu: "https://www.chopstickslincoln.com/order", addr: [["", "6891 A St, Suite 215, Lincoln, NE 68510"]] }
+    { name: "Chopsticks", chips: ["GF fried rice"], note: "They'll make the fried rice gluten free.", menu: "https://www.chopstickslincoln.com/order", addr: [["", "6891 A St, Suite 215, Lincoln, NE 68510"]] },
+    { name: "Blue Orchid", onMyList: true, site: "http://www.blueorchidlincoln.com/", addr: [["Downtown", "129 N 10th St, Lincoln, NE 68508"]] }
   ]},
   { id: "bars", title: "Sports bars", places: [
     { name: "Sportscasters", chips: ["GF buns"], note: "No dedicated fryer.", site: "https://www.facebook.com/150801348271616", siteLabel: "Facebook", addr: [["", "3048 N 70th St, Lincoln, NE 68507"]] },
     { name: "Tanner's", site: "https://tannersbarandgrill.com/", addr: [["Yankee Hill", "8600 S 30th St, Lincoln, NE 68516"]] },
     { name: "Liquid Assets", chips: ["GF buns"], menu: "https://theliquidassetsbar.com/lincoln-liquid-assets-sports-bar-food-menu", addr: [["", "2755 Jamie Ln, Lincoln, NE 68516"]] },
-    { name: "The LNK Grill", menu: "https://thelnkgrill.com/lincoln-prairie-lake-plaza-the-lnk-grill-food-menu", addr: [["", "8500 Andermatt Dr, Lincoln, NE 68526"]] },
+    { name: "The LNK Grill", chips: ["GF pizza crust"], menu: "https://thelnkgrill.com/lincoln-prairie-lake-plaza-the-lnk-grill-food-menu", addr: [["", "8500 Andermatt Dr, Lincoln, NE 68526"]] },
     { name: "Hickman Bar & Grill", onMyList: true, chips: ["GF fryer on request"], note: "I’ve heard great things.", site: "https://www.facebook.com/hickmanbar", siteLabel: "Facebook", addr: [["", "107 Locust St, Hickman, NE 68372"]] }
   ]},
   { id: "sweets", title: "Bakery & sweets", places: [
@@ -85,7 +87,8 @@ window.GF_GROUPS = [
     { name: "Hurts Donut Co.", chips: ["GF donuts"], site: "https://www.wannahurts.com/locations/lincoln-ne/", addr: [["", "129 N 10th St #100, Lincoln, NE 68508"]] },
     { name: "402 Creamery", chips: ["GF flavors rotate"], addr: [["Fallbrook", "570 Fallbrook Blvd Suite 102, Lincoln, NE 68521"], ["Telegraph", "330 S 21st St Suite 101, Lincoln, NE 68510"], ["Village Gardens", "7101 Kentwell Ln, Lincoln, NE 68516"]] },
     { name: "Paper Moon Pastries", chips: ["Gluten friendly cakes & cupcakes"], note: "Small town bakery in Cortland, open Saturdays. Some cookies are gluten friendly too, and the menu changes weekly on Facebook.", site: "https://www.facebook.com/papermoonpastries", siteLabel: "Facebook", addr: [["Cortland", "325 W 4th St, Cortland, NE 68331"]] },
-    { name: "Heavenly Body Bakery", onMyList: true, chips: ["Fully GF", "Food truck"], note: "Celiac-owned bakery truck from Omaha that pops up in Lincoln. Check Facebook for stops.", site: "https://www.facebook.com/p/Heavenly-Body-Bakery-61559630672857/", siteLabel: "Facebook" }
+    { name: "Heavenly Body Bakery", onMyList: true, chips: ["Fully GF", "Food truck"], note: "Celiac-owned bakery truck from Omaha that pops up in Lincoln. Check Facebook for stops.", site: "https://www.facebook.com/p/Heavenly-Body-Bakery-61559630672857/", siteLabel: "Facebook" },
+    { name: "The Chocolate Season", onMyList: true, chips: ["Weekend waffles"], note: "Chocolate shop and coffee bar with waffles on Saturday and Sunday mornings.", site: "https://thechocolateseason.com/", addr: [["", "3855 Village Ln, Suite 100, Lincoln, NE 68516"]] }
   ]},
   { id: "fast", title: "Fast food", places: [
     { name: "Culver's", chips: ["GF buns"], site: "https://www.culvers.com/", chain: "Culver's Lincoln NE" },
@@ -97,6 +100,8 @@ window.GF_GROUPS = [
     { name: "Raising Cane's", chips: ["Naked Bird"], note: "Order the tenders naked. No dedicated fryer.", site: "https://www.raisingcanes.com/", chain: "Raising Cane's Lincoln NE" },
     { name: "Slim Chickens", chips: ["Grilled tenders", "GF Slim's Sauce"], note: "Get the tender meal grilled, no toast. The fries share a fryer. Slim's Sauce is gluten free, but not every sauce is, so check the allergen menu.", menu: "https://www.slimchickens.com/nutritional-and-allergen-info", menuLabel: "Allergen menu", site: "https://www.slimchickens.com/", chain: "Slim Chickens Lincoln NE" },
     { name: "Cheba Hut", onMyList: true, chips: ["GF bread", "Hard cider"], note: "Owner is celiac. GF subs are toasted on their own paper.", site: "https://www.chebahut.com/locations/lincoln-ne", addr: [["Telegraph", "200 S 21st St, Lincoln, NE 68510"]] },
-    { name: "Moxie’s", onMyList: true, chips: ["Fully GF"], note: "Allergen-free kiosk in UNL’s Selleck food court, open to the public on weekdays.", addr: [["Selleck Hall", "600 N 15th St, Lincoln, NE 68508"]] }
+    { name: "Moxie’s", onMyList: true, chips: ["Fully GF"], note: "Allergen-free kiosk in UNL’s Selleck food court, open to the public on weekdays.", addr: [["Selleck Hall", "600 N 15th St, Lincoln, NE 68508"]] },
+    { name: "Chipotle", site: "https://www.chipotle.com/", chain: "Chipotle Lincoln NE" },
+    { name: "Qdoba", site: "https://www.qdoba.com/", chain: "Qdoba Lincoln NE" }
   ]}
 ];
