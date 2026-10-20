@@ -51,7 +51,7 @@ window.GF_GROUPS = [
     { name: "MōMō Pizzeria & Ristorante", chips: ["GF pasta swaps"], note: "The chef knows GF well. Ask for zucchini noodles.", addr: [["", "7701 Pioneers Blvd #2, Lincoln, NE 68506"]] },
     { name: "Mellow Mushroom", chips: ["GF crust"], site: "https://mellowmushroom.com/", addr: [["Haymarket", "601 R St, Suite 110, Lincoln, NE 68508"]] },
     { name: "Blaze Pizza", chips: ["GF crust"], site: "https://www.blazepizza.com/", addr: [["Downtown", "1317 Q St, Lincoln, NE 68508"]] },
-    { name: "Isles Pub & Pizza", site: "https://islespubandpizza.com", addr: [["Havelock", "6232 Havelock Ave, Lincoln, NE 68507"]] }
+    { name: "Isles Pub & Pizza", chips: ["GF crust"], site: "https://islespubandpizza.com", addr: [["Havelock", "6232 Havelock Ave, Lincoln, NE 68507"]] }
   ]},
   { id: "burgers", title: "Burgers", places: [
     { name: "HF Crave", chips: ["Dedicated GF fryer", "GF buns"], site: "https://www.hfcrave.com/", addr: [["Holdrege", "4800 Holdrege St Ste 100, Lincoln, NE 68504"], ["Pine Lake", "2801 Pine Lake Rd, Lincoln, NE 68516"]] },
@@ -76,7 +76,7 @@ window.GF_GROUPS = [
   ]},
   { id: "bars", title: "Sports bars", places: [
     { name: "Sportscasters", chips: ["GF buns"], note: "No dedicated fryer.", site: "https://www.facebook.com/150801348271616", siteLabel: "Facebook", addr: [["", "3048 N 70th St, Lincoln, NE 68507"]] },
-    { name: "Tanner's", site: "https://tannersbarandgrill.com/", addr: [["Yankee Hill", "8600 S 30th St, Lincoln, NE 68516"]] },
+    { name: "Tanner's", chips: ["Grilled chicken lips"], note: "Order the chicken lips grilled.", site: "https://tannersbarandgrill.com/", addr: [["Yankee Hill", "8600 S 30th St, Lincoln, NE 68516"]] },
     { name: "Liquid Assets", chips: ["GF buns"], menu: "https://theliquidassetsbar.com/lincoln-liquid-assets-sports-bar-food-menu", addr: [["", "2755 Jamie Ln, Lincoln, NE 68516"]] },
     { name: "The LNK Grill", chips: ["GF pizza crust"], menu: "https://thelnkgrill.com/lincoln-prairie-lake-plaza-the-lnk-grill-food-menu", addr: [["", "8500 Andermatt Dr, Lincoln, NE 68526"]] },
     { name: "Hickman Bar & Grill", onMyList: true, chips: ["GF fryer on request"], note: "I’ve heard great things.", site: "https://www.facebook.com/hickmanbar", siteLabel: "Facebook", addr: [["", "107 Locust St, Hickman, NE 68372"]] }
