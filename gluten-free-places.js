@@ -30,9 +30,8 @@ window.GF_GROUPS = [
     { name: "Toast", menu: "https://gettoasty.com/menu", addr: [["", "570 Fallbrook Blvd #105, Lincoln, NE"]] },
     { name: "Lazlo's", chips: ["GF menu"], note: "No dedicated fryer.", menu: "https://lazlosbreweryandgrill.com/menu/", addr: [["Haymarket", "210 N 7th St, Lincoln, NE 68508"], ["South", "5900 Old Cheney Rd, Lincoln, NE 68516"]] },
     { name: "Art & Soul", site: "https://www.lincolnartandsoul.com", addr: [["", "5740 Hidcote Dr, Lincoln, NE 68516"]] },
-    { name: "Denton Daily Double", note: "Steakhouse and keno bar just west of Lincoln. One of my favorites.", menu: "https://dentondailydouble.com/menu", addr: [["Denton", "7230 Lancaster Ave, Denton, NE 68339"]] },
     { name: "Salt Mine City Brewing Co.", onMyList: true, chips: ["GF beer"], site: "https://www.saltminecity.com/", addr: [["Haymarket", "801 R St, Suite 100, Lincoln, NE 68508"]] },
-    { name: "ChefauChef", onMyList: true, chips: ["Catering"], note: "Caterer that works around allergies, plus Wham Bam Meal in a Pan.", site: "https://www.chefauchef.com/", addr: [["", "2111 N 86th St, Lincoln, NE 68505"]] }
+    { name: "Parker's Smokehouse", site: "http://www.parkerssmokehouse.com/", addr: [["", "8341 O St, Lincoln, NE 68510"]] }
   ]},
   { id: "brunch", title: "Brunch", places: [
     { name: "Penelope's Lil' Cafe", chips: ["GF toast"], site: "https://www.facebook.com/penelopeslincoln", siteLabel: "Facebook", addr: [["", "4724 Pioneers Blvd, Lincoln, NE 68506"]] },
@@ -56,13 +55,15 @@ window.GF_GROUPS = [
   { id: "burgers", title: "Burgers", places: [
     { name: "HF Crave", chips: ["Dedicated GF fryer", "GF buns"], site: "https://www.hfcrave.com/", addr: [["Holdrege", "4800 Holdrege St Ste 100, Lincoln, NE 68504"], ["Pine Lake", "2801 Pine Lake Rd, Lincoln, NE 68516"]] },
     { name: "Honest Abe's", chips: ["GF buns", "GF breaded nuggets"], site: "https://www.honestabesburgers.com/", addr: [["Downtown", "126 N 14th St, Lincoln, NE 68508"], ["Meadowlane", "840 N 70th St, Lincoln, NE 68505"], ["Glynoaks", "8340 Glynoaks Dr, Lincoln, NE 68516"], ["North", "2662 Cornhusker Hwy, Lincoln, NE 68521"]] },
-    { name: "Red Robin", chips: ["Dedicated GF fryer"], site: "https://www.redrobin.com/", addr: [["South Ridge", "2707 Pine Lake Rd, Lincoln, NE 68516"]] }
+    { name: "Red Robin", chips: ["Dedicated GF fryer"], site: "https://www.redrobin.com/", addr: [["South Ridge", "2707 Pine Lake Rd, Lincoln, NE 68516"]] },
+    { name: "Charred Burger + Bar", chips: ["GF buns"], addr: [["SouthPointe", "2910 Pine Lake Rd, Suite N, Lincoln, NE 68516"]] }
   ]},
   { id: "mexican", title: "Mexican", places: [
     { name: "Mi Tierra", chips: ["GF marked on menu"], note: "Ask about the fryer before ordering chips.", menu: "https://mitierralincoln.com/lincoln-mi-tierra-mexican-restaurant-food-menu", addr: [["North", "8320 Northwoods Dr, Lincoln, NE 68505"], ["South", "5500 Old Cheney Rd #4, Lincoln, NE 68516"]] },
     { name: "Hacienda Real", addr: [["", "3130 Pine Lake Rd, Lincoln, NE 68516"]] },
     { name: "Tico’s", onMyList: true, chips: ["Lincoln favorite"], note: "Not my favorite, but most of Lincoln loves it.", addr: [["", "317 S 17th St, Lincoln, NE 68508"]] },
-    { name: "Taco Inn", onMyList: true, chips: ["Reader pick"], note: "Never been a fan myself, but readers recommend it. Send me your go-to order.", chain: "Taco Inn Lincoln NE" }
+    { name: "Taco Inn", onMyList: true, chips: ["Reader pick"], note: "Never been a fan myself, but readers recommend it. Send me your go-to order.", chain: "Taco Inn Lincoln NE" },
+    { name: "Copal", menu: "https://copallnk.com/menu", addr: [["", "4747 Pioneers Blvd, Suite 300, Lincoln, NE 68506"]] }
   ]},
   { id: "asian", title: "Sushi & Asian", places: [
     { name: "Blue Sushi Sake Grill", menu: "https://bluesushisakegrill.com/menus", addr: [["Haymarket", "808 R St, Lincoln, NE 68508"]] },
@@ -72,14 +73,16 @@ window.GF_GROUPS = [
     { name: "Kencono Bowl", menu: "https://kenconobowl.com/lincoln-lincoln-nebraska-kencono-bowl-food-menu", addr: [["", "2601 Jamie Ln, Suite 104, Lincoln, NE 68512"]] },
     { name: "Mr. Hui's #2", chips: ["Most dishes made GF"], note: "Call for takeout. They're super knowledgeable and can make most dishes gluten free. My favorite is the Hunan beef or chicken.", menu: "https://www.mrhuis2lincolnne.com/order", addr: [["", "4131 Pioneer Woods Dr, Lincoln, NE 68506"]] },
     { name: "Chopsticks", chips: ["GF fried rice"], note: "They'll make the fried rice gluten free.", menu: "https://www.chopstickslincoln.com/order", addr: [["", "6891 A St, Suite 215, Lincoln, NE 68510"]] },
-    { name: "Blue Orchid", onMyList: true, site: "http://www.blueorchidlincoln.com/", addr: [["Downtown", "129 N 10th St, Lincoln, NE 68508"]] }
+    { name: "Blue Orchid", onMyList: true, site: "http://www.blueorchidlincoln.com/", addr: [["Downtown", "129 N 10th St, Lincoln, NE 68508"]] },
+    { name: "Itsumo Ramen", site: "https://www.itsumoramenlincoln.com/", addr: [["Downtown", "1451 O St, Lincoln, NE 68508"]] }
   ]},
   { id: "bars", title: "Sports bars", places: [
     { name: "Sportscasters", chips: ["GF buns"], note: "No dedicated fryer.", site: "https://www.facebook.com/150801348271616", siteLabel: "Facebook", addr: [["", "3048 N 70th St, Lincoln, NE 68507"]] },
     { name: "Tanner's", chips: ["Grilled chicken lips"], note: "Order the chicken lips grilled.", site: "https://tannersbarandgrill.com/", addr: [["Yankee Hill", "8600 S 30th St, Lincoln, NE 68516"]] },
     { name: "Liquid Assets", chips: ["GF buns"], menu: "https://theliquidassetsbar.com/lincoln-liquid-assets-sports-bar-food-menu", addr: [["", "2755 Jamie Ln, Lincoln, NE 68516"]] },
     { name: "The LNK Grill", chips: ["GF pizza crust"], menu: "https://thelnkgrill.com/lincoln-prairie-lake-plaza-the-lnk-grill-food-menu", addr: [["", "8500 Andermatt Dr, Lincoln, NE 68526"]] },
-    { name: "Hickman Bar & Grill", onMyList: true, chips: ["GF fryer on request"], note: "I’ve heard great things.", site: "https://www.facebook.com/hickmanbar", siteLabel: "Facebook", addr: [["", "107 Locust St, Hickman, NE 68372"]] }
+    { name: "Hickman Bar & Grill", onMyList: true, chips: ["GF fryer on request"], note: "I’ve heard great things.", site: "https://www.facebook.com/hickmanbar", siteLabel: "Facebook", addr: [["", "107 Locust St, Hickman, NE 68372"]] },
+    { name: "Denton Daily Double", note: "Steakhouse and keno bar just west of Lincoln. One of my favorites.", menu: "https://dentondailydouble.com/menu", addr: [["Denton", "7230 Lancaster Ave, Denton, NE 68339"]] }
   ]},
   { id: "sweets", title: "Bakery & sweets", places: [
     { name: "Goldenrod Pastries", chips: ["Mostly GF"], site: "https://www.instagram.com/goldenrodpastries/", siteLabel: "Instagram", addr: [["", "3947 S 48th St, Lincoln, NE 68506"]] },
@@ -102,6 +105,11 @@ window.GF_GROUPS = [
     { name: "Cheba Hut", onMyList: true, chips: ["GF bread", "Hard cider"], note: "Owner is celiac. GF subs are toasted on their own paper.", site: "https://www.chebahut.com/locations/lincoln-ne", addr: [["Telegraph", "200 S 21st St, Lincoln, NE 68510"]] },
     { name: "Moxie’s", onMyList: true, chips: ["Fully GF"], note: "Allergen-free kiosk in UNL’s Selleck food court, open to the public on weekdays.", addr: [["Selleck Hall", "600 N 15th St, Lincoln, NE 68508"]] },
     { name: "Chipotle", site: "https://www.chipotle.com/", chain: "Chipotle Lincoln NE" },
-    { name: "Qdoba", site: "https://www.qdoba.com/", chain: "Qdoba Lincoln NE" }
+    { name: "Qdoba", site: "https://www.qdoba.com/", chain: "Qdoba Lincoln NE" },
+    { name: "Rusty Taco", site: "https://rustytaco.com/", chain: "Rusty Taco Lincoln NE" },
+    { name: "Cheesesteak Grille", chips: ["Bowls"], note: "Get the bowl, no lo mein.", addr: [["", "5640 S 16th St, Lincoln, NE 68512"]] }
+  ]},
+  { id: "misc", title: "Misc", places: [
+    { name: "ChefauChef", onMyList: true, chips: ["Catering"], note: "Caterer that works around allergies, plus Wham Bam Meal in a Pan.", site: "https://www.chefauchef.com/", addr: [["", "2111 N 86th St, Lincoln, NE 68505"]] }
   ]}
 ];
