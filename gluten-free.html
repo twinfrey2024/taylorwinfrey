@@ -165,7 +165,7 @@
         if (p.onMyList) { nm.appendChild(document.createTextNode(" ")); nm.appendChild(el("span", "gf__flag", "On my list")); }
         top.appendChild(nm);
         var links = el("span", "gf__links");
-        if (p.menu) links.appendChild(link(p.menu, "Menu"));
+        if (p.menu) links.appendChild(link(p.menu, p.menuLabel || "Menu"));
         if (p.site) links.appendChild(link(p.site, p.siteLabel || "Website"));
         if (p.chain) links.appendChild(link(maps(p.chain), "Locations"));
         top.appendChild(links);
