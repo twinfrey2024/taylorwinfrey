@@ -32,7 +32,8 @@ window.GF_GROUPS = [
     { name: "Art & Soul", site: "https://www.lincolnartandsoul.com", addr: [["", "5740 Hidcote Dr, Lincoln, NE 68516"]] },
     { name: "Salt Mine City Brewing Co.", onMyList: true, chips: ["GF beer"], site: "https://www.saltminecity.com/", addr: [["Haymarket", "801 R St, Suite 100, Lincoln, NE 68508"]] },
     { name: "Parker's Smokehouse", site: "http://www.parkerssmokehouse.com/", addr: [["", "8341 O St, Lincoln, NE 68510"]] },
-    { name: "FireWorks", chips: ["GF buns"], note: "I've had nothing but bad luck here, from cold food to wrong orders, so I can't personally vouch for it. Probably just me. Try it, but maybe don't invite me.", site: "https://fireworksrestaurant.com/", addr: [["", "5750 S 86th St, Lincoln, NE 68526"]] }
+    { name: "FireWorks", chips: ["GF buns"], note: "I've had nothing but bad luck here, from cold food to wrong orders, so I can't personally vouch for it. Probably just me. Try it, but maybe don't invite me.", site: "https://fireworksrestaurant.com/", addr: [["", "5750 S 86th St, Lincoln, NE 68526"]] },
+    { name: "Kripa Indian & Nepali Cuisine", onMyList: true, addr: [["", "8320 Northwoods Dr #100, Lincoln, NE 68505"]] }
   ]},
   { id: "brunch", title: "Brunch", places: [
     { name: "Penelope's Lil' Cafe", chips: ["GF toast"], site: "https://www.facebook.com/penelopeslincoln", siteLabel: "Facebook", addr: [["", "4724 Pioneers Blvd, Lincoln, NE 68506"]] },
