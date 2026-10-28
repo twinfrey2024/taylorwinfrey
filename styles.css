@@ -534,3 +534,20 @@ p { margin: 0; }
   .nav { padding-top: 20px; padding-bottom: 18px; gap: 12px; }
   .nav__links { gap: 2px 20px; }
 }
+
+/* ---------- Quote boxes on phones: a light text-thread look ---------- */
+@media (max-width: 680px) {
+  .quotes { display: flex; flex-direction: column; gap: 10px; }
+  .quote {
+    max-width: 86%;
+    padding: 12px 18px;
+    border-radius: 20px 20px 20px 6px;
+    gap: 0;
+    min-height: 0;
+    align-self: flex-start;
+  }
+  .quote:nth-child(even) { align-self: flex-end; border-radius: 20px 20px 6px 20px; background: var(--paper); }
+  .quote__mark { display: none; }
+  .quote p { font-size: 16px; line-height: 1.45; }
+  #familiar.gap-48 { gap: 32px; }
+}
